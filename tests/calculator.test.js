@@ -21,7 +21,7 @@ describe("calculator", () => {
     expect(() => divide(10, 0)).toThrow("Cannot divide by zero");
   });
  test("check addition", () => {
-    expect(add(2, 3)).toBe(6);
+    expect(add(2, 3)).toBe(5);
   });
 
 });
